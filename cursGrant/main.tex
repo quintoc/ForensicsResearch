@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{epsfig,latexsym}
+\usepackage{subfigure}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage{titlesec}
+\usepackage{paralist}
+\usepackage[final]{pdfpages}
+\usepackage{wrapfig}
+
+\titlespacing{\section}{0pt}{1mm}{1mm}
+\titlespacing{\subsection}{0pt}{0.5mm}{0.5mm}
+\titlespacing{\subsubsection}{0pt}{0.25mm}{0.25mm}
+\titlespacing{\paragraph}{0pt}{0.5mm}{0.5mm}
+\titlespacing{\subparagraph}{0pt}{0.25mm}{0.25mm}
+
+\setlength{\textheight}{9.5in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0.00in} \setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in} \setlength{\oddsidemargin}{0.0in}
+\setlength{\parindent}{0pc} \setlength{\parskip}{.5pc}
+
+%\pdfpagewidth 8.5in
+%\pdfpageheight 11in
+
+\newcommand\ignore[1]{}     %%% Ignore a region
+\newcommand{\sr}[1]{{\color{red}{SR: {#1}}}}
+\newcommand{\qc}[1]{{\color{green}{QC: {#1}}}}
+
+%\title {Give title}
+%\maketitle
+
+
+\begin{document}
+\date{}
+
+\title {\vspace{-1in} \Large{Evaluating Deleted File Recovery Tools on NIST Standards} \vspace{-.25in}}
+\author{\large{Quinton Currier}}
+\maketitle
+\vspace{-.3in}
+%\includepdf[pages=-]{src/NSF_proposal_cover_page.pdf} %cover page from pdf
+%\pagestyle{empty} %avoid numbering TOC
+%\setcounter{tocdepth}{3}
+%\tableofcontents
+%\newpage
+
+%begin content
+\thispagestyle{empty} 
+\input{intro.tex}
+\input{description.tex}
+%\includepdf[pages=-]{src/biographical_sketches.pdf}
+
+%\input{src/budget.tex}
+
+%\newpage
+%\pagestyle{empty}
+%\bibliographystyle{plain}
+%\bibliography{main}
+\end{document}

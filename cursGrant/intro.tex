@@ -1,0 +1,24 @@
+\section{Introduction}
+The National Institute of Standards and Technology (NIST) has a subdivision named the Computer Forensics Tool Testing Program (CFTT). 
+The CFTT has standards regarding digital forensic tools to help determine the quality and integrity of these tools. The integrity 
+of such tools is important in many cases such as corporate, security, and especially in judicial proceedings. 
+Using a software that does not follow these standards has the potential to recover files incorrectly, corrupted, or 
+mislabeled, which has the potential to throw out evidence in court cases that are increasingly reliable on digital data. 
+On the other hand, incorrectly recovered files can also lead to jail sentence of innocent defendants. One important 
+task in digital forensics is deleted file recovery (DFR), which is the focus of our proposed research. 
+CFTT standards for DFR tools consists of 4 core features and a set of \emph{optional} features. 
+We have already done a few preliminary experiments with the popular digital forensics tool Autopsy (The SluethKit), which 
+shows importance of a similar study in a bigger scale.
+
+\section{Research Topic}
+Define what does a deleted file recovery tool do. I am interested in investigating which software meet the standards 
+set by CFTT. There are many companies and individuals marketing their software as the best recovery tool. My 
+research question encompasses this software as well to test their effectiveness at recovering files compared to a standard for enterprise 
+level tools. I aim to use Autopsy as a base comparison to the other software and what they can do. The question 
+also expands to the different types of file systems. While there are 3 operating systems that have different file 
+systems, there are even more file systems that each store data and meta data differently. Looking out for Type I and 
+Type II errors are also a large part of evaluating each software. Many other factors also play a part, including the 
+condition of the filesystem (is it full, was the tool installed after the file was deleted, etc.) and how the file was 
+deleted (Recycle bin, permanent delete, reformat of disk etc.). 
+All of these additional variables can be tested and compared, especially using 
+the optional requirements of the CFTT to create a comprehensive comparison for readers at both the consumer and student levels.
